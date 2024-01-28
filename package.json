@@ -1,0 +1,32 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Clean Blog",
+  "main": "App.js",
+  "start": "nodemon app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cemgbc/CleanApp.git"
+  },
+  "keywords": [
+    "clean",
+    "app"
+  ],
+  "author": "cemgbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cemgbc/CleanApp/issues"
+  },
+  "homepage": "https://github.com/cemgbc/CleanApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
+  }
+}
